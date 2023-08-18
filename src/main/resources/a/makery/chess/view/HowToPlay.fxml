@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: gainsboro;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="a.makery.chess.view.HowToPlayController">
+   <children>
+      <Text layoutX="143.0" layoutY="65.0" strokeType="OUTSIDE" strokeWidth="0.0" text="how to pl  y">
+         <font>
+            <Font name="Felix Titling" size="45.0" />
+         </font>
+      </Text>
+      <Button layoutX="258.0" layoutY="350.0" mnemonicParsing="false" onAction="#handleGotIt" prefWidth="85.0" text="GOT IT">
+         <font>
+            <Font name="Avenir Next LT W04 Demi" size="12.0" />
+         </font>
+      </Button>
+      <Text layoutX="37.0" layoutY="89.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Taking Turns: &#10;Players take turns to place their symbol in any empty cell on the board.&#10;&#10;Objective: &#10;The first player to get three of their symbols in a row – horizontally, vertically, or diagonally – wins the game.&#10;&#10;Winning Combinations: &#10;A player wins by creating any of the following combinations:&#10;Three symbols in a horizontal row.&#10;Three symbols in a vertical column.&#10;Three symbols in a diagonal line.&#10;&#10;Draw or Tie: &#10;If all the cells on the board are filled, and no player has won, the game is a draw or tie.&#10;&#10;Game Play Example: &#10;Players take turns placing their symbols in empty cells, aiming to create a line of their symbols.&#10;&#10;Game Result: &#10;The game continues until one player wins or until all cells are filled, resulting in a draw." wrappingWidth="524.1366882324219">
+         <font>
+            <Font name="Avenir Next LT W04 Demi" size="10.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="487.0" layoutY="250.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/meow3.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="35.0" fitWidth="21.0" layoutX="401.0" layoutY="30.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/meow1.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="55.0" fitWidth="20.0" layoutX="515.0" layoutY="220.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/meow7.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
